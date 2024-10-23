@@ -1,4 +1,4 @@
-#if else statements
+
 a=4
 b=5
 
@@ -23,7 +23,7 @@ else:
 age =20
 
 if(age >=18):
-    print("can vote")# 4 gaps after if statement is called indentation
+    print("can vote")
 else:
     print("can't vote")
 
@@ -41,7 +41,7 @@ else:
     print("Fail")
 
 
-#nested if 
+
 age=34
 
 if(age>=18):

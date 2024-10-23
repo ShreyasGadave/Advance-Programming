@@ -1,20 +1,3 @@
-# year=int(input("Enter year:"))
-
-# if(year % 4 == 0):
-#     if(year % 100 == 0):
-#         if(year % 400 == 0):
-#             print("leap year")
-#         else:
-#             print("Not leap year")
-#     else:
-#         print("leap year")
-# else:
-#     print("Not leap year")
-
-
-# num={1,2,3,4}
-# for x in num:
-#   print(x)
 
 
 for x in range(2, 30, 3):
