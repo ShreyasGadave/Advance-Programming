@@ -1,11 +1,20 @@
+class Animal:
+    def sound(self):
+        pass
 
-print(len("geeks"))
+class Dog(Animal):
+    def sound(self):
+        return "Woof"
 
-print(len([10, 20, 30]))
+class Cat(Animal):
+    def sound(self):
+        return "Meow"
 
-def add(x, y, z = 0): 
-    return x + y+z
+def animal_sound(animal):
+    print(animal.sound())
 
-# Driver code 
-print(add(2, 3))
-print(add(2, 3, 4))
+dog = Dog()
+cat = Cat()
+
+animal_sound(dog)  
+animal_sound(cat)
